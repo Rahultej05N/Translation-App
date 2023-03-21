@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-blend-mode: hard-light;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: aquamarine;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-size: x-large;
+    font-weight: 500;
+  }
+  
+  textarea {
+    width: 100%;
+    font-size: xx-large;
+    box-shadow:10px 10px aquamarine ;
+  }
+  
+  select {
+    width: 100%;
+    height: 2rem;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 3px;
+    border-style: outset;
+    
+  }
+  
+  button {
+    margin-top: 1rem;
+    font-size: x-large;
+    border-radius: 6px;
+
+  }
+  
+  #translated-text {
+    margin-top: 0.5rem;
+     box-shadow:10px 10px aquamarine ;
+    display: block;
+    box-sizing: border-box;
+    border: 1px  solid grey;
+    width: 100%;
+     height: 4.5cm;
+     padding: 1rem;
+     font-size: xx-large;
+  }
+  .button:hover {
+    background-color:#ebb031;
+    transition: 0.7s;
+}
